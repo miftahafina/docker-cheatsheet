@@ -31,8 +31,8 @@ docker container rm [container-name]
 File name: Dockerfile
 ===
 FROM [image-name]:[tag-name]
-COPY [filename] /app/[filename]
-CMD ["cmd1", "cmd2", "/app/[filename]"]
+COPY [filename] /[dir-name]/[filename]
+CMD ["cmd1", "cmd2", "/[dir-name]/[filename]"]
 ===
 docker build --tag [image-name]:[tag-name] .
 ```
