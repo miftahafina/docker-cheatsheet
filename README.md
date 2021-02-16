@@ -11,6 +11,7 @@ docker version
 docker images
 docker image ls
 docker pull [image-name]:[tag-name]
+docker image inspect [image-name]:[tag-name]
 docker image rm [image-name]:[tag-name]
 docker image rm [image-id]
 ```
